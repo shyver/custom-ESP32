@@ -2484,12 +2484,6 @@
 		(uuid "506e934e-b089-49ce-b8bf-d225b714993c")
 	)
 	(junction
-		(at 67.31 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5242b4ea-11a0-4fa9-831a-eb6f3f3889fe")
-	)
-	(junction
 		(at 130.81 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2556,10 +2550,22 @@
 		(uuid "941076d7-9132-40c2-9188-13186ff36cd7")
 	)
 	(junction
+		(at 68.58 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d108d88-ebbc-4d00-9a1f-cb67099e8ddf")
+	)
+	(junction
 		(at 160.02 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dd2306f-5668-411b-a4bf-169931a19ef7")
+	)
+	(junction
+		(at 60.96 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac7bdd10-f9f1-48aa-bbca-65ff2abd3c2c")
 	)
 	(junction
 		(at 43.18 125.73)
@@ -2578,12 +2584,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce893e1f-7fe4-42b3-a60e-ea9fe9171859")
-	)
-	(junction
-		(at 62.23 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1cb8ebb-e8de-428e-9d72-a63a0a3c1372")
 	)
 	(junction
 		(at 161.29 82.55)
@@ -2701,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 118.11) (xy 71.12 118.11)
+			(xy 67.31 118.11) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2791,7 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 107.95) (xy 62.23 125.73)
+			(xy 60.96 107.95) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2831,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 62.23 95.25)
+			(xy 58.42 95.25) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2858,6 +2858,16 @@
 			(type default)
 		)
 		(uuid "486c91b8-16d3-491d-9ca4-bfae13ec32f3")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 71.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac2e8f9-95e4-4f0d-8253-2be9778585b9")
 	)
 	(wire
 		(pts
@@ -2891,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 67.31 92.71)
+			(xy 58.42 92.71) (xy 68.58 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2908,6 +2918,16 @@
 			(type default)
 		)
 		(uuid "50265221-c346-4ef4-b69a-253c64cfb9ca")
+	)
+	(wire
+		(pts
+			(xy 60.96 125.73) (xy 67.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5533c3-41f3-4577-9d58-8ae833d1ee60")
 	)
 	(wire
 		(pts
@@ -3011,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 67.31 100.33)
+			(xy 68.58 92.71) (xy 68.58 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3111,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 95.25) (xy 62.23 100.33)
+			(xy 60.96 95.25) (xy 60.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 125.73) (xy 62.23 125.73)
+			(xy 43.18 125.73) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3188,16 +3208,6 @@
 			(type default)
 		)
 		(uuid "bace8156-577f-4b8e-b600-d7b3676ad482")
-	)
-	(wire
-		(pts
-			(xy 62.23 125.73) (xy 67.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb435b97-2836-40e1-8fe0-d55cce4a5388")
 	)
 	(wire
 		(pts
@@ -3281,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 107.95) (xy 67.31 118.11)
+			(xy 68.58 107.95) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 179.07 81.5848 0)
 			(effects
 				(font
@@ -3514,7 +3524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 101.6 0)
 			(effects
 				(font
@@ -3584,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 252.73 82.55 0)
 			(effects
 				(font
@@ -3650,7 +3660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 228.2952 101.6 0)
 			(effects
 				(font
@@ -3720,7 +3730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 135.89 118.11 0)
 			(effects
 				(font
@@ -3787,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 102.87 73.66 0)
 			(effects
 				(font
@@ -3854,7 +3864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.312 110.49 90)
 			(effects
 				(font
@@ -3923,7 +3933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 165.1 80.01 0)
 			(effects
 				(font
@@ -3990,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 102.87 0)
 			(effects
 				(font
@@ -4060,7 +4070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -4183,7 +4193,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 104.14 0)
+		(at 68.58 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4192,7 +4202,7 @@
 		(fields_autoplaced yes)
 		(uuid "69d8d709-1cfe-4183-af84-0ca2542a6ecf")
 		(property "Reference" "R2"
-			(at 69.85 102.8699 0)
+			(at 71.12 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4211,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 69.85 105.4099 0)
+			(at 71.12 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.532 104.14 90)
+			(at 66.802 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 104.14 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4238,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 104.14 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 235.9152 101.6 0)
 			(effects
 				(font
@@ -4412,7 +4422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal_library:Inductor_SDS74M-4R7M-LF"
 			(at 200.66 82.55 0)
 			(effects
 				(font
@@ -4556,7 +4566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 101.6 0)
 			(effects
 				(font
@@ -4626,7 +4636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 76.2 118.11 0)
 			(effects
 				(font
@@ -4693,7 +4703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -4758,7 +4768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.37 84.328 90)
 			(effects
 				(font
@@ -4894,7 +4904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.312 91.44 90)
 			(effects
 				(font
@@ -5004,7 +5014,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 104.14 0)
+		(at 60.96 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5013,7 +5023,7 @@
 		(fields_autoplaced yes)
 		(uuid "edaff087-0c03-452d-ae16-ea827c8549fe")
 		(property "Reference" "R3"
-			(at 64.77 102.8699 0)
+			(at 63.5 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5032,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 64.77 105.4099 0)
+			(at 63.5 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.452 104.14 90)
+			(at 59.182 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 104.14 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5059,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 104.14 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5245,7 +5255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 46.99 102.87 0)
 			(effects
 				(font
