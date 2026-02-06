@@ -10,196 +10,6 @@
 		(rev "v1.0")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2435,22 +2245,10 @@
 		(uuid "06c845f6-f402-487b-aaf1-bb2481427159")
 	)
 	(junction
-		(at 242.57 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10176a7c-2814-4576-9e03-d793babe7a0c")
-	)
-	(junction
 		(at 124.46 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "107b3253-acd0-4d37-bc47-6da8b51a003c")
-	)
-	(junction
-		(at 234.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10c4b7b4-c058-4a29-a3e0-cd2464f2af8a")
 	)
 	(junction
 		(at 96.52 73.66)
@@ -2495,10 +2293,10 @@
 		(uuid "506e934e-b089-49ce-b8bf-d225b714993c")
 	)
 	(junction
-		(at 130.81 118.11)
+		(at 135.89 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ddc34e7-9a13-4383-9cc9-b1b690be8eb4")
+		(uuid "606405cc-cea2-455c-8986-f61818f23b57")
 	)
 	(junction
 		(at 240.03 82.55)
@@ -2585,6 +2383,12 @@
 		(uuid "ac7bdd10-f9f1-48aa-bbca-65ff2abd3c2c")
 	)
 	(junction
+		(at 184.15 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2dbc57e-4eb6-42c7-be12-b6e450ac5089")
+	)
+	(junction
 		(at 43.18 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,12 +2399,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca6937f3-0ba6-42c3-aaaa-5fb41f73353d")
-	)
-	(junction
-		(at 245.11 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce893e1f-7fe4-42b3-a60e-ea9fe9171859")
 	)
 	(junction
 		(at 161.29 82.55)
@@ -2658,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 82.55) (xy 252.73 82.55)
+			(xy 247.65 82.55) (xy 261.62 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 118.11) (xy 212.09 118.11)
+			(xy 170.18 118.11) (xy 184.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2745,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "1aceccac-396b-4f6a-b4ec-20357aac36bb")
+	)
+	(wire
+		(pts
+			(xy 184.15 118.11) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9adbd3-d3c2-4ab6-bc5f-5f80869715d4")
 	)
 	(wire
 		(pts
@@ -2838,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 130.81 118.11)
+			(xy 127 118.11) (xy 135.89 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3028,16 +2836,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 118.11) (xy 252.73 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7599ddc8-6a5a-497c-8596-cfb04702328d")
-	)
-	(wire
-		(pts
 			(xy 187.96 82.55) (xy 196.85 82.55)
 		)
 		(stroke
@@ -3098,33 +2896,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 82.55) (xy 242.57 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897a2ae1-3a46-4b25-8875-146124a4219d")
-	)
-	(wire
-		(pts
-			(xy 240.03 82.55) (xy 242.57 82.55)
+			(xy 240.03 82.55) (xy 247.65 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9348a29c-bbc3-4626-86cc-7abbbbf7b94d")
-	)
-	(wire
-		(pts
-			(xy 252.73 85.09) (xy 252.73 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992838da-5949-4dba-8676-55b98de171ca")
 	)
 	(wire
 		(pts
@@ -3258,16 +3036,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 118.11) (xy 245.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a50658-20fe-444e-a0aa-3142aa5c27b4")
-	)
-	(wire
-		(pts
 			(xy 204.47 82.55) (xy 212.09 82.55)
 		)
 		(stroke
@@ -3308,16 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 82.55) (xy 247.65 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a4e16d-e3bc-4327-ad89-d6e0a6a57da4")
-	)
-	(wire
-		(pts
 			(xy 91.44 118.11) (xy 99.06 118.11)
 		)
 		(stroke
@@ -3338,16 +3096,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 73.66) (xy 246.38 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a5bb9b-d7f7-4e36-a22b-fb9f467a17a5")
-	)
-	(wire
-		(pts
 			(xy 68.58 107.95) (xy 68.58 118.11)
 		)
 		(stroke
@@ -3355,16 +3103,6 @@
 			(type default)
 		)
 		(uuid "ea494766-15b4-4c84-a05f-3bdfa2e7d6b2")
-	)
-	(wire
-		(pts
-			(xy 130.81 118.11) (xy 147.32 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33a1fa1-161f-49c9-b941-1dcaa6c71068")
 	)
 	(wire
 		(pts
@@ -3388,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f3ec39-2680-4f6e-a132-911398fa1134")
+	)
+	(wire
+		(pts
 			(xy 170.18 82.55) (xy 171.45 82.55)
 		)
 		(stroke
@@ -3408,7 +3156,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape output)
-		(at 246.38 73.66 0)
+		(at 261.62 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3416,91 +3164,6 @@
 			(justify left)
 		)
 		(uuid "20db30c9-e5fe-4e7b-8050-5bc83887c098")
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 257.81 85.09 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a85b770-52d6-4943-ae78-7259e1c8e1c5")
-		(property "Reference" "J3"
-			(at 260.35 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 260.35 82.5501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 257.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "VOUT = 3.3V, 3A max"
-			(at 268.478 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cd0b688-171b-4334-9850-cc6a5f6bf195")
-		)
-		(pin "2"
-			(uuid "588d28fe-86b3-4398-a336-a6d3d26f748d")
-		)
-		(instances
-			(project ""
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3712,12 +3375,6 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP8")
 					(unit 1)
@@ -3787,12 +3444,6 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C7")
 					(unit 1)
@@ -3802,7 +3453,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 130.81 118.11 0)
+		(at 135.89 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3811,7 +3462,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a4582a9-4c8f-4aed-b3c8-f90e66860254")
 		(property "Reference" "TP3"
-			(at 133.35 113.5379 0)
+			(at 138.43 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3471,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 116.0779 0)
+			(at 138.43 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3480,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 135.89 118.11 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 118.11 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3498,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 130.81 118.11 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,12 +3510,6 @@
 			(uuid "eae2675f-e4d1-4ca5-8722-c34917ea4961")
 		)
 		(instances
-			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
 			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP3")
@@ -4022,7 +3667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b03b72-0e20-45ac-b423-7e8925f498f8")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 214.63 109.2199 0)
 			(effects
 				(font
@@ -4075,14 +3720,8 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4147,14 +3786,75 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP6")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49cf806a-63c4-412d-a646-d5c16c16e425")
+		(property "Reference" "TP4"
+			(at 186.69 113.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 116.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ea021e-7f40-4c06-9ac9-a5217078ea2d")
+		)
+		(instances
 			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4222,12 +3922,6 @@
 			(uuid "4a5f5ea8-2342-4fa8-baf2-7c47ec751f01")
 		)
 		(instances
-			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C3")
@@ -4425,7 +4119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.802 104.14 90)
 			(effects
 				(font
@@ -4535,12 +4229,6 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C6")
 					(unit 1)
@@ -4606,12 +4294,6 @@
 			(uuid "a4a3b377-403e-4069-a9ff-759751962561")
 		)
 		(instances
-			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
 			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "#FLG02")
@@ -4837,12 +4519,6 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C2")
 					(unit 1)
@@ -4910,12 +4586,6 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP2")
 					(unit 1)
@@ -4982,12 +4652,6 @@
 			(uuid "2c539784-44dd-4958-bb63-6ce0813c3da0")
 		)
 		(instances
-			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
 			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP5")
@@ -5152,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1c265e5-a573-4ef3-93f0-6f9b4a726114")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 214.63 90.1699 0)
 			(effects
 				(font
@@ -5161,7 +4825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.25k"
+		(property "Value" "30.9k"
 			(at 214.63 92.7099 0)
 			(effects
 				(font
@@ -5205,14 +4869,8 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5318,7 +4976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.182 104.14 90)
 			(effects
 				(font
@@ -5353,87 +5011,8 @@
 		)
 		(instances
 			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef837f54-cd4d-4a21-b10a-8459788c2c45")
-		(property "Reference" "TP9"
-			(at 247.65 113.5379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 116.0779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 250.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 245.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad25c3fe-eea9-44d2-89e6-6ef3a30b765b")
-		)
-		(instances
-			(project "ESP32_kicad_project"
-				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-			(project "ESP32_kicad_project"
-				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
