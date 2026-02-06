@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "22029e4f-d29f-40ca-9f30-bdedc5039470")
 	(paper "A4")
+	(title_block
+		(title "ESP32 Dev Board – Power Supply")
+		(date "2026-02-05")
+		(rev "v1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -2430,6 +2435,12 @@
 		(uuid "06c845f6-f402-487b-aaf1-bb2481427159")
 	)
 	(junction
+		(at 242.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10176a7c-2814-4576-9e03-d793babe7a0c")
+	)
+	(junction
 		(at 124.46 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2488,6 +2499,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ddc34e7-9a13-4383-9cc9-b1b690be8eb4")
+	)
+	(junction
+		(at 240.03 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641b1202-d991-409d-9abd-2f46e7207852")
 	)
 	(junction
 		(at 212.09 118.11)
@@ -3081,6 +3098,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 82.55) (xy 242.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897a2ae1-3a46-4b25-8875-146124a4219d")
+	)
+	(wire
+		(pts
+			(xy 240.03 82.55) (xy 242.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9348a29c-bbc3-4626-86cc-7abbbbf7b94d")
+	)
+	(wire
+		(pts
 			(xy 252.73 85.09) (xy 252.73 118.11)
 		)
 		(stroke
@@ -3271,6 +3308,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 82.55) (xy 247.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a4e16d-e3bc-4327-ad89-d6e0a6a57da4")
+	)
+	(wire
+		(pts
 			(xy 91.44 118.11) (xy 99.06 118.11)
 		)
 		(stroke
@@ -3288,6 +3335,16 @@
 			(type default)
 		)
 		(uuid "d8c5d885-8639-46f8-8aa3-1f8b7763e836")
+	)
+	(wire
+		(pts
+			(xy 242.57 73.66) (xy 246.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a5bb9b-d7f7-4e36-a22b-fb9f467a17a5")
 	)
 	(wire
 		(pts
@@ -3321,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 82.55) (xy 247.65 82.55)
+			(xy 234.95 82.55) (xy 240.03 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3348,6 +3405,17 @@
 			(type default)
 		)
 		(uuid "fc8e8296-1c34-4264-98b2-38a209cc66fa")
+	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 246.38 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20db30c9-e5fe-4e7b-8050-5bc83887c098")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -3426,6 +3494,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3490,6 +3564,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C4")
 					(unit 1)
 				)
@@ -3564,6 +3644,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "Cin1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3627,6 +3713,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP8")
 					(unit 1)
 				)
@@ -3700,6 +3792,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3767,6 +3865,78 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 240.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "409ded71-cc7b-4854-a475-e5c48dc33224")
+		(property "Reference" "#FLG03"
+			(at 240.03 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 240.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9104e23a-7bbd-4101-a99e-5352e0f0c117")
+		)
+		(instances
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3830,6 +4000,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -3904,6 +4080,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3966,6 +4148,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP6")
 					(unit 1)
 				)
@@ -4036,6 +4224,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C3")
 					(unit 1)
 				)
@@ -4119,6 +4313,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4185,6 +4385,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "F1")
 					(unit 1)
 				)
@@ -4259,6 +4465,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4324,6 +4536,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C6")
 					(unit 1)
 				)
@@ -4394,6 +4612,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4458,6 +4682,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "L1")
 					(unit 1)
 				)
@@ -4536,6 +4766,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4602,6 +4838,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "C2")
 					(unit 1)
 				)
@@ -4673,6 +4915,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4736,6 +4984,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP5")
 					(unit 1)
 				)
@@ -4808,6 +5062,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4870,6 +5130,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -4944,6 +5210,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5006,6 +5278,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -5080,6 +5358,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5143,6 +5427,12 @@
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "TP9")
 					(unit 1)
 				)
@@ -5223,6 +5513,12 @@
 		(instances
 			(project ""
 				(path "/22029e4f-d29f-40ca-9f30-bdedc5039470"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
 					(reference "U1")
 					(unit 1)
 				)
@@ -5340,12 +5636,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5/d1ef12f6-71a3-47fe-be19-1bef2cc7d14c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

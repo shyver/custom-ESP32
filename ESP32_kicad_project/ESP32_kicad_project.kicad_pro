@@ -434,8 +434,16 @@
   },
   "sheets": [
     [
-      "22029e4f-d29f-40ca-9f30-bdedc5039470",
+      "8f7d6ecf-e535-4443-9266-fe4b2e9314d5",
       "Root"
+    ],
+    [
+      "d1ef12f6-71a3-47fe-be19-1bef2cc7d14c",
+      "Power"
+    ],
+    [
+      "71ad0a68-ebcc-403d-8fb5-019c32511765",
+      "ESP32 Core"
     ]
   ],
   "text_variables": {}
