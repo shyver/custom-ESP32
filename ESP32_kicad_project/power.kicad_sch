@@ -2287,6 +2287,12 @@
 		(uuid "3e891f41-5987-4102-a134-b34dd1ac36f2")
 	)
 	(junction
+		(at 234.95 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4468cee0-b239-4158-a2fa-842f9cb9035b")
+	)
+	(junction
 		(at 99.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2936,6 +2942,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 118.11) (xy 261.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a296fc66-034e-427c-b663-7c8b5acd56fa")
+	)
+	(wire
+		(pts
 			(xy 212.09 118.11) (xy 227.33 118.11)
 		)
 		(stroke
@@ -3164,6 +3180,17 @@
 			(justify left)
 		)
 		(uuid "20db30c9-e5fe-4e7b-8050-5bc83887c098")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 261.62 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf5f77d3-d856-4fb9-91ff-4d64eab679fa")
 	)
 	(symbol
 		(lib_id "Device:C")
