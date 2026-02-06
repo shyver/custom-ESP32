@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 93.98 62.23) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0de6c7-4b07-45b6-8382-23a6e45152e2")
+	)
+	(wire
+		(pts
 			(xy 93.98 45.72) (xy 111.76 45.72)
 		)
 		(stroke
@@ -59,6 +69,16 @@
 				(justify left)
 			)
 		)
+		(pin "GND" input
+			(at 111.76 62.23 180)
+			(uuid "79dc5375-3fe5-440a-9c69-47e8985c0b17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ESP32_kicad_project"
 				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5"
@@ -104,6 +124,16 @@
 		(pin "3V3" output
 			(at 93.98 45.72 0)
 			(uuid "9d738aa0-4a05-4bd6-9537-7138a211d456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 93.98 62.23 0)
+			(uuid "7f05b6f8-d112-42a9-97af-082300178ca3")
 			(effects
 				(font
 					(size 1.27 1.27)
