@@ -149,6 +149,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 22.86 92.71)
+		(size 67.31 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea9d57c6-edee-486d-a8de-323e49a62b37")
+		(property "Sheetname" "USB-UART"
+			(at 22.86 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_uart.kicad_sch"
+			(at 22.86 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_kicad_project"
+				(path "/8f7d6ecf-e535-4443-9266-fe4b2e9314d5"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

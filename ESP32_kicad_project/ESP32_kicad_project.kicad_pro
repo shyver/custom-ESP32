@@ -444,6 +444,10 @@
     [
       "71ad0a68-ebcc-403d-8fb5-019c32511765",
       "ESP32 Core"
+    ],
+    [
+      "ea9d57c6-edee-486d-a8de-323e49a62b37",
+      "USB-UART"
     ]
   ],
   "text_variables": {}
