@@ -4432,6 +4432,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SRP5030CA-4R7M"
+			(at 200.66 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee901c65-0fbe-4911-84b3-538af86a94dc")
 		)
