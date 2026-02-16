@@ -2299,12 +2299,6 @@
 		(uuid "3e891f41-5987-4102-a134-b34dd1ac36f2")
 	)
 	(junction
-		(at 234.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4468cee0-b239-4158-a2fa-842f9cb9035b")
-	)
-	(junction
 		(at 99.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2983,16 +2977,6 @@
 			(type default)
 		)
 		(uuid "a2782f8d-76b2-41c5-9209-ee9586404ed8")
-	)
-	(wire
-		(pts
-			(xy 234.95 118.11) (xy 261.62 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a296fc66-034e-427c-b663-7c8b5acd56fa")
 	)
 	(wire
 		(pts
@@ -4413,7 +4397,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µH"
+		(property "Value" "SRP5030CA-4R7M"
 			(at 200.66 80.01 90)
 			(effects
 				(font
@@ -4421,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "personal_library:Inductor_SDS74M-4R7M-LF"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP5030T"
 			(at 200.66 82.55 0)
 			(effects
 				(font
