@@ -90,5 +90,57 @@ The board is composed of the following functional blocks :
 
 
 
+  ## Manufacturing Readiness
 
-  
+This project was prepared with manufacturability and assembly considerations in mind, despite being developed primarily as a portfolio and learning exercise.
+
+### PCB Fabrication Readiness
+
+* **DRC clean:** The PCB passes electrical design rule checks with no critical errors. Remaining warnings are limited to silkscreen overlap and do not affect fabrication.
+* **Standard 2-layer stackup:** The board was designed using a conventional 2-layer stack (signal + ground plane) to ensure compatibility with low-cost fabrication services.
+* **Controlled trace widths:** Power traces (VBUS and 3.3 V) were routed with increased width to safely handle peak current and reduce voltage drop.
+* **Ground plane implementation:** A continuous ground pour was used to improve return paths, reduce noise, and simplify manufacturing.
+
+### Component Selection & Assembly
+
+* **Widely available packages:** Components were chosen in common SMD footprints (0603, 0805, SOT-23, QFN-24, ESP32 module) to simplify sourcing and assembly.
+* **Module-based RF design:** Using the ESP32-WROOM-32E avoids RF layout complexity and improves assembly reliability.
+* **Hand-soldering feasibility:** Passive sizes and component spacing allow manual assembly, making the design accessible for prototyping and small-batch builds.
+* **Polarized and orientation-sensitive parts labeled:** Diodes, regulators, and IC orientation were verified to reduce assembly risk.
+
+### Power Integrity & Protection
+
+* **Input protection included:** Polyfuse and TVS protection were added on VBUS to improve robustness against shorts and voltage transients.
+* **Decoupling strategy:** Local decoupling capacitors were placed near regulators, microcontroller supply pins, and USB-UART IC to ensure stable operation.
+* **Switching regulator layout considerations:** The switching loop was kept compact to reduce EMI and switching noise.
+
+### Connector & Mechanical Considerations
+
+* **Standard 2.54 mm pin headers:** Dual 19-pin headers were selected for compatibility with breadboards, jumper wires, and prototyping environments.
+* **Accessible test points:** Key rails and signals (VIN, 3V3, EN, TX, RX, SW) include test pads to simplify debugging and validation.
+* **USB-C mechanical footprint:** The USB connector footprint includes mounting pads for mechanical stability during insertion cycles.
+
+### Generated Manufacturing Outputs
+
+The following files can be exported directly for fabrication and assembly:
+
+* Gerber files
+* Drill files
+* Pick-and-place (position) files
+* Bill of Materials (BOM)
+* Interactive 3D PCB view for mechanical validation
+
+### Known Limitations
+
+* Silkscreen density may require minor cleanup before production.
+* No panelization strategy was defined.
+* Assembly stencil optimization was not validated.
+* RF performance and EMI compliance were not experimentally verified.
+
+### Recommended Pre-Production Improvements
+
+* Run a second DFM review focused on solder mask clearance and paste apertures.
+* Validate USB differential impedance if targeting high-speed reliability.
+* Perform prototype bring-up with thermal observation of the regulator and inductor.
+* Add fiducials if automated assembly is planned.
+
